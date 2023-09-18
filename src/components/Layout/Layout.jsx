@@ -1,17 +1,29 @@
 import { PropTypes } from 'prop-types';
-import { Sidebar } from './Sidebar/Sidebar';
+import { ToastContainer } from 'react-toastify';
 
-export const Layout = ({ children }) => {
+import { Sidebar } from './Sidebar/Sidebar';
+import { AuthProvider } from '../../context/AuthContext';
+import { Outlet } from 'react-router-dom';
+import { Suspense } from 'react';
+
+export const Layout = () => {
   return (
     <div className="d-flex h-100">
-      <Sidebar />
+      <AuthProvider>
+        <Sidebar />
 
-      <main
-        className="tab-content p-5 h-100"
-        style={{ minHeight: '100vh', width: 'calc(100% - 300px)' }}
-      >
-        <div className="tab-pane fade show active">{children}</div>
-      </main>
+        <main
+          className="tab-content p-5 h-100 col-10"
+          style={{ minHeight: '100vh' }}
+        >
+          <div className="tab-pane fade show active">
+            <Suspense fallback={<p>Loading...</p>}>
+              <Outlet />
+            </Suspense>
+          </div>
+        </main>
+      </AuthProvider>
+      <ToastContainer />
     </div>
   );
 };

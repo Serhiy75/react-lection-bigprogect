@@ -4,10 +4,11 @@ import { ArticlesSearch } from '../../components/Articles/ArticlesSearch';
 import { ArticlesLoader } from '../../components/Articles/ArticlesLoader';
 import { ArticlesError } from '../../components/Articles/ArticlesError/ArticlesError';
 import { useEffect } from 'react';
-import { fetchStatus } from '../../constants/fetchStatus';
+// import { fetchStatus } from '../../constants/fetchStatus';
 import { useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getArticles } from '../../redux/articles/articlesOperations';
+import { fetchStatus } from 'constans/fetchStatus';
 
 export const ArticlesPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();

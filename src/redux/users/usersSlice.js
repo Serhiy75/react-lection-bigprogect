@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getUserThunk, loginThunk, registerThunk } from './usersThunk';
-import { fetchStatus } from '../../constants/fetchStatus';
+import { fetchStatus } from 'constans/fetchStatus';
+// import { fetchStatus } from '../../constants/fetchStatus';
 
 const initialState = {
   status: fetchStatus.Idle,

@@ -1,10 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchStatus } from '../../constants/fetchStatus';
+// import { fetchStatus } from '../../constans/fetchStatus';
 import {
   createArticle,
   deleteArticle,
   getArticles,
 } from './articlesOperations';
+import { fetchStatus } from 'constans/fetchStatus';
 
 const initialState = {
   data: [],

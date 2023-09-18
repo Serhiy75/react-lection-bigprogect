@@ -1,1 +1,1 @@
-export { CommentsPage as default } from './CommentsPage';
+export { SingleArticlePage as default } from './SingleArticlePage';
