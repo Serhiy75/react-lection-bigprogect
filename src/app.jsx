@@ -32,35 +32,33 @@ export const App = () => {
   }, [dispatch, tokenValue, user]);
 
   return (
-    <BrowserRouter basename="/react-lection-bigprogect">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
 
-          <Route path="articles" element={<ArticlesPage />} />
+        <Route path="articles" element={<ArticlesPage />} />
 
-          <Route path="" element={<PrivateRoute />}>
-            <Route path="new-article" element={<NewArticlePage />} />
-            <Route path="exercises" element={<ExercisesPage />}>
-              <Route index element={<Navigate to="products" />} />
-              <Route path="products" element={<ProductsPage />} />
-              <Route path="counter" element={<CounterPage />} />
-            </Route>
+        <Route path="" element={<PrivateRoute />}>
+          <Route path="new-article" element={<NewArticlePage />} />
+          <Route path="exercises" element={<ExercisesPage />}>
+            <Route index element={<Navigate to="products" />} />
+            <Route path="products" element={<ProductsPage />} />
+            <Route path="counter" element={<CounterPage />} />
           </Route>
-
-          <Route path="articles/:articleId" element={<SingleArticlePage />}>
-            <Route path="comments" element={<CommentsPage />} />
-          </Route>
-
-          <Route path="" element={<PublicRoute />}>
-            <Route path="login" element={<LoginPage />} />
-            <Route path="join" element={<JoinPage />} />
-          </Route>
-
-          <Route path="*" element={<NotFoundPage />} />
         </Route>
-      </Routes>
-    </BrowserRouter>
+
+        <Route path="articles/:articleId" element={<SingleArticlePage />}>
+          <Route path="comments" element={<CommentsPage />} />
+        </Route>
+
+        <Route path="" element={<PublicRoute />}>
+          <Route path="login" element={<LoginPage />} />
+          <Route path="join" element={<JoinPage />} />
+        </Route>
+
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
   );
 };
 
