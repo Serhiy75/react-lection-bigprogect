@@ -1,5 +1,5 @@
 import { Layout } from './Layout';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { lazy, useEffect } from 'react';
 
 import LoginPage from '../pages/LoginPage';
