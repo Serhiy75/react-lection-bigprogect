@@ -32,7 +32,7 @@ export const App = () => {
   }, [dispatch, tokenValue, user]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-lection-bigprogect">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
