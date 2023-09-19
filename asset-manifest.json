@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/react-lection-bigprogect/static/css/main.7acaea2f.css",
-    "main.js": "/react-lection-bigprogect/static/js/main.07d3183d.js",
+    "main.css": "/react-lection-bigprogect/static/css/main.a1b876b0.css",
+    "main.js": "/react-lection-bigprogect/static/js/main.8cf72afc.js",
+    "static/js/35.30f2434f.chunk.js": "/react-lection-bigprogect/static/js/35.30f2434f.chunk.js",
+    "static/css/768.e4cb0db6.chunk.css": "/react-lection-bigprogect/static/css/768.e4cb0db6.chunk.css",
+    "static/js/768.c90a12d9.chunk.js": "/react-lection-bigprogect/static/js/768.c90a12d9.chunk.js",
+    "static/js/678.080a7483.chunk.js": "/react-lection-bigprogect/static/js/678.080a7483.chunk.js",
+    "static/js/653.4301149a.chunk.js": "/react-lection-bigprogect/static/js/653.4301149a.chunk.js",
+    "static/js/477.337e1091.chunk.js": "/react-lection-bigprogect/static/js/477.337e1091.chunk.js",
+    "static/js/564.3db0188e.chunk.js": "/react-lection-bigprogect/static/js/564.3db0188e.chunk.js",
+    "static/media/pulp-fiction-john-travolta.gif": "/react-lection-bigprogect/static/media/pulp-fiction-john-travolta.59b46f4510af6cc07976.gif",
+    "static/media/error.jfif": "/react-lection-bigprogect/static/media/error.2c5f3acf671c0d72dd53.jfif",
     "index.html": "/react-lection-bigprogect/index.html",
-    "main.7acaea2f.css.map": "/react-lection-bigprogect/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-lection-bigprogect/static/js/main.07d3183d.js.map"
+    "main.a1b876b0.css.map": "/react-lection-bigprogect/static/css/main.a1b876b0.css.map",
+    "main.8cf72afc.js.map": "/react-lection-bigprogect/static/js/main.8cf72afc.js.map",
+    "35.30f2434f.chunk.js.map": "/react-lection-bigprogect/static/js/35.30f2434f.chunk.js.map",
+    "768.e4cb0db6.chunk.css.map": "/react-lection-bigprogect/static/css/768.e4cb0db6.chunk.css.map",
+    "768.c90a12d9.chunk.js.map": "/react-lection-bigprogect/static/js/768.c90a12d9.chunk.js.map",
+    "678.080a7483.chunk.js.map": "/react-lection-bigprogect/static/js/678.080a7483.chunk.js.map",
+    "653.4301149a.chunk.js.map": "/react-lection-bigprogect/static/js/653.4301149a.chunk.js.map",
+    "477.337e1091.chunk.js.map": "/react-lection-bigprogect/static/js/477.337e1091.chunk.js.map",
+    "564.3db0188e.chunk.js.map": "/react-lection-bigprogect/static/js/564.3db0188e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.a1b876b0.css",
+    "static/js/main.8cf72afc.js"
   ]
 }
