@@ -1,24 +1,24 @@
-import { Layout } from './components/Layout';
+import { Layout } from './Layout';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { lazy, useEffect } from 'react';
 
-import LoginPage from './pages/LoginPage';
-import NotFoundPage from './pages/NotFoundPage';
-import SingleArticlePage from './pages/SingleArticlePage';
+import LoginPage from '../pages/LoginPage';
+import NotFoundPage from '../pages/NotFoundPage';
+import SingleArticlePage from '../pages/SingleArticlePage';
 // import CommentsPage from './pages/SingleArticlePage/CommentsPage';
-import { NewArticlePage } from './pages/NewArticlePage/NewArticlePage';
-import { JoinPage } from './pages/JoinPage/JoinPage';
+import { NewArticlePage } from '../pages/NewArticlePage/NewArticlePage';
+import { JoinPage } from '../pages/JoinPage/JoinPage';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUserThunk } from './redux/users/usersThunk';
-import { selectToken, selectUser } from './redux/users/usersSelectors';
-import { PrivateRoute } from './components/PrivateRoute/PrivateRoute';
-import { PublicRoute } from './components/PublicRoute/PublicRoute';
+import { getUserThunk } from '../redux/users/usersThunk';
+import { selectToken, selectUser } from '../redux/users/usersSelectors';
+import { PrivateRoute } from './PrivateRoute/PrivateRoute';
+import { PublicRoute } from './PublicRoute/PublicRoute';
 import { CommentsPage } from 'pages/SingleArticlePage/CommentsPage/Commentspage';
-const HomePage = lazy(() => import('./pages/HomePage'));
-const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
-const ExercisesPage = lazy(() => import('./pages/ExercisesPage'));
-const ProductsPage = lazy(() => import('./pages/ExercisesPage/ProductsPage'));
-const CounterPage = lazy(() => import('./pages/ExercisesPage/CounterPage'));
+const HomePage = lazy(() => import('../pages/HomePage'));
+const ArticlesPage = lazy(() => import('../pages/ArticlesPage'));
+const ExercisesPage = lazy(() => import('../pages/ExercisesPage'));
+const ProductsPage = lazy(() => import('../pages/ExercisesPage/ProductsPage'));
+const CounterPage = lazy(() => import('../pages/ExercisesPage/CounterPage'));
 
 export const App = () => {
   const dispatch = useDispatch();
