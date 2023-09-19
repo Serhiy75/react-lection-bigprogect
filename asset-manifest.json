@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-lection-bigprogect/static/css/main.a1b876b0.css",
-    "main.js": "/react-lection-bigprogect/static/js/main.8cf72afc.js",
+    "main.js": "/react-lection-bigprogect/static/js/main.5bffd5f1.js",
     "static/js/35.30f2434f.chunk.js": "/react-lection-bigprogect/static/js/35.30f2434f.chunk.js",
     "static/css/768.e4cb0db6.chunk.css": "/react-lection-bigprogect/static/css/768.e4cb0db6.chunk.css",
     "static/js/768.c90a12d9.chunk.js": "/react-lection-bigprogect/static/js/768.c90a12d9.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/error.jfif": "/react-lection-bigprogect/static/media/error.2c5f3acf671c0d72dd53.jfif",
     "index.html": "/react-lection-bigprogect/index.html",
     "main.a1b876b0.css.map": "/react-lection-bigprogect/static/css/main.a1b876b0.css.map",
-    "main.8cf72afc.js.map": "/react-lection-bigprogect/static/js/main.8cf72afc.js.map",
+    "main.5bffd5f1.js.map": "/react-lection-bigprogect/static/js/main.5bffd5f1.js.map",
     "35.30f2434f.chunk.js.map": "/react-lection-bigprogect/static/js/35.30f2434f.chunk.js.map",
     "768.e4cb0db6.chunk.css.map": "/react-lection-bigprogect/static/css/768.e4cb0db6.chunk.css.map",
     "768.c90a12d9.chunk.js.map": "/react-lection-bigprogect/static/js/768.c90a12d9.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.a1b876b0.css",
-    "static/js/main.8cf72afc.js"
+    "static/js/main.5bffd5f1.js"
   ]
 }
