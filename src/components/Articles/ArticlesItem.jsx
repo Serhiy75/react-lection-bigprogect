@@ -1,15 +1,11 @@
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 
 import { cutString } from '../../helpers/cut-string';
-// import { useContext } from 'react';
-// import { AuthContext } from '../../context/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { deleteArticle } from '../../redux/articles/articlesOperations';
 
 export const ArticlesItem = ({ article }) => {
-  //   const { isLogin } = useContext(AuthContext);
-
   const location = useLocation();
 
   const dispatch = useDispatch();

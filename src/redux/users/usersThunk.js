@@ -38,6 +38,7 @@ export const getUserThunk = createAsyncThunk(
   async (_, { rejectWithValue, getState }) => {
     try {
       const tokenValue = selectToken(getState());
+      console.log(tokenValue);
       token.set(tokenValue);
       const data = await getUserService();
       return data;

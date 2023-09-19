@@ -1,7 +1,7 @@
 import { publicApi, privateApi } from './http';
 
 export const registerService = async body => {
-  const { data } = await publicApi.post('users/register', body);
+  const { data } = await publicApi.post('users/signup', body);
   return data;
 };
 

@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 export const publicApi = axios.create({
-  baseURL: 'http://localhost:5000/api/',
+  baseURL: 'https://goit-task-manager.herokuapp.com/',
 });
 
 export const privateApi = axios.create({
-  baseURL: 'http://localhost:5000/api/',
+  baseURL: 'https://goit-task-manager.herokuapp.com/',
 });
 
 export const token = {
