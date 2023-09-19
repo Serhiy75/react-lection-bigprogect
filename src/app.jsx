@@ -20,7 +20,7 @@ const ExercisesPage = lazy(() => import('./pages/ExercisesPage'));
 const ProductsPage = lazy(() => import('./pages/ExercisesPage/ProductsPage'));
 const CounterPage = lazy(() => import('./pages/ExercisesPage/CounterPage'));
 
-const App = () => {
+export const App = () => {
   const dispatch = useDispatch();
   const tokenValue = useSelector(selectToken);
   const user = useSelector(selectUser);
@@ -64,4 +64,4 @@ const App = () => {
   );
 };
 
-export default App;
+// export default App;
